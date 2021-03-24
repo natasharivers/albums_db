@@ -51,10 +51,10 @@ d. Which albums were released in the 1990s ( The immaculate collection, Danger, 
 e. Which albums had less than 20 million certified sales (-Grease, bed, Sgt. Pepper's Lonely Hearts Club Band, dirty dancing, let's talk about love, danger, the immaculate collection, Abbey Road, born in the USA, Brothers N arms, Titanic, never mind, the wall)
     select *
     from albums
-    where sales < "20,000,000" 
+    where sales < 20 
     
 
-f. All the albums with a genre of "Rock". Why do these query results not include albums with a genre of "Hard rock" or "Progressive rock"?
+f. All the albums with a genre of "Rock". (5 albums) Why do these query results not include albums with a genre of "Hard rock" or "Progressive rock"?
     select *
     from albums
     where genre = "Rock";
