@@ -1,13 +1,14 @@
 #3 Explore the structure of the albums table.
 
 a. How many rows are in the albums table? 
-    describe albums; 
-    -13
+    select *
+    from albums;; 
+    
 
 b. How many unique artist names are in the albums table?
     select distinct artist
     from albums;
-    -23
+    
 
 c. What is the primary key for the albums table?
     describe albums; 
